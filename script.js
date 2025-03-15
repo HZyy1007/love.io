@@ -1,6 +1,8 @@
 document.getElementById('yesButton').addEventListener('click', function() {
     document.getElementById('result').innerText = "Yayyyy:33 Iuuuu ebeee waaaa:33";
     document.getElementById('result').style.display = 'block';
+
+    this.classList.add('yesEffect');
 });
 
 document.getElementById('noButton').addEventListener('click', function() {
